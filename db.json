@@ -1,16 +1,9 @@
 {
-  "users" : [
-    {
-      "name" : "Akash",
-      "id" : 1, 
-      "company" : "Tiket.com",
-      "role" : "Frontend"
-    },
-    {
-      "name" : "Avi",
-      "id" : 2, 
-      "company" : "TCS",
-      "role" : "Frontend"
-    }
-  ]
+"contributors": {
+"name": "Akash Sirohi",
+"currentcompany": "Tiket.com",
+"position": "Frontend Engineering Intern",
+"image": "https://avatars.githubusercontent.com/u/76730100?s=400&u=29ce4aeb2c1c71a8658ee9ee3c19fd838eb79e93&v=4",
+"description": "DSA Solver blah blah blah"
+}
 }
