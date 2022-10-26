@@ -15,7 +15,7 @@
       }
     ],
     "cars" : [
-        { "name": "Alto", "price": 315000, "company": "Maruti Suzuki" },
+        { "name": "Altu", "price": 315000, "company": "Maruti Suzuki" },
   { "name": "Celerio", "price": 465000, "company": "Maruti Suzuki" },
   { "name": "Celerio X", "price": 511500, "company": "Maruti Suzuki" },
   { "name": "DZire", "price": 599000, "company": "Maruti Suzuki" },
