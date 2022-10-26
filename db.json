@@ -38,20 +38,6 @@
   { "name": "Venue", "price": 915000, "company": "Hyundai" },
   { "name": "New Creta", "price": 1016000, "company": "Hyundai" },
   { "name": "Tucson", "price": 2269100, "company": "Hyundai" },
-  { "name": "i20", "price": 691200, "company": "Hyundai" },
-  { "name": "Verna", "price": 928600, "company": "Hyundai" },
-  { "name": "Xcent Prime", "price": 640840, "company": "Hyundai" },
-  { "name": "i20 N Line", "price": 984100, "company": "Hyundai" },
-  { "name": "Alcazar", "price": 2269100, "company": "Hyundai" },
-  { "name": "XUV300", "price": 796000, "company": "Mahindra" },
-  { "name": "XUV500", "price": 1416000, "company": "Mahindra" },
-  { "name": "Scorpio", "price": 1226000, "company": "Mahindra" },
-  { "name": "Alturas G4", "price": 2877000, "company": "Mahindra" },
-  { "name": "Bolero", "price": 842000, "company": "Mahindra" },
-  { "name": "KUV100 NXT", "price": 604000, "company": "Mahindra" },
-  { "name": "Thar", "price": 1279000, "company": "Mahindra" },
-  { "name": "Marazzo", "price": 1230000, "company": "Mahindra" },
-  { "name": "XUV700", "price": 1199000, "company": "Mahindra" },
-  { "name": "Bolero Neo", "price": 848000, "company": "Mahindra" }
+  { "name": "i20", "price": 691200, "company": "Hyundai" }
     ]
   }
