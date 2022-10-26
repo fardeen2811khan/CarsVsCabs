@@ -1,10 +1,16 @@
 {
 	"users" : [
 		{
-			"name" : "Akash"
+			"name" : "Akash",
+			"id" : 1,
+			"company" : "Tiket.com",
+			"role" : "Frontend Engineer Intern"
 		},
 		{
-			"name" : "Avinash"
+			"name" : "Avinash",
+			"id" : 2,
+			"company" : "TCS",
+			"role" : "Associate Software Engineer"
 		}
 	]
 }
