@@ -1,9 +1,10 @@
 {
   "users" : [
-    "name" : "Akash",
+    {"name" : "Akash",
     "id" : 1, 
     "company" : "Tiket.com",
     "role" : "Frontend"
+    }
   ],
   "cars" : [
     { "name": "Alto", "price": 315000, "company": "Maruti Suzuki" },
