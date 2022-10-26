@@ -1,0 +1,23 @@
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.users-top {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    color: white;
+}
+
+.users {
+    background-color: rgb(87, 98, 228);
+    margin: 20px;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+h1 {
+    text-align: center;
+
+}

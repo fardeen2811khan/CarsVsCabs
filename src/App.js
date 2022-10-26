@@ -5,7 +5,8 @@ import {
   NavLink,
   Routes,
 } from "react-router-dom";
-import Check from "./Check";
+import Cars from "./components/Cars";
+import Check from "./components/Contributors";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         </Routes>
       </Router> */}
       <Check/>
+      <Cars />
     </div>
   );
 }
