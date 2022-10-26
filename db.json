@@ -1,14 +1,16 @@
 {
   "users" : [
-    {"name" : "Akash",
-    "id" : 1, 
-    "company" : "Tiket.com",
-    "role" : "Frontend"
+    {
+      "name" : "Akash",
+      "id" : 1, 
+      "company" : "Tiket.com",
+      "role" : "Frontend"
     },
-    {"name" : "Avi",
-    "id" : 2, 
-    "company" : "TCS",
-    "role" : "Frontend"
+    {
+      "name" : "Avi",
+      "id" : 2, 
+      "company" : "TCS",
+      "role" : "Frontend"
     }
   ]
 }
