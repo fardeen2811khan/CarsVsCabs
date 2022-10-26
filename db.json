@@ -86,7 +86,6 @@
   { "name": "X Line", "price": 1779000, "company": "Kia" },
   { "name": "Polo", "price": 627000, "company": "Volkswagen" },
   { "name": "The Tiguan AllSpace", "price": 3420000, "company": "Volkswagen" },
-  { "name": "T-Roc", "price": 2135000, "company": "Volkswagen" },
-  { "name": "Vento", "price": 999900, "company": "Volkswagen" }    
+  { "name": "T-Roc", "price": 2135000, "company": "Volkswagen" }
     ]
   }
