@@ -13,31 +13,5 @@
         "company" : "TCS",
         "role" : "Associate Software Engineer"
       }
-    ],
-    "cars" : [
-        { "name": "Alto", "price": 315000, "company": "Maruti Suzuki" },
-  { "name": "Celerio", "price": 465000, "company": "Maruti Suzuki" },
-  { "name": "Celerio X", "price": 511500, "company": "Maruti Suzuki" },
-  { "name": "DZire", "price": 599000, "company": "Maruti Suzuki" },
-  { "name": "Eeco", "price": 430000, "company": "Maruti Suzuki" },
-  { "name": "Ertiga", "price": 796500, "company": "Maruti Suzuki" },
-  { "name": "S-Presso", "price": 378000, "company": "Maruti Suzuki" },
-  { "name": "Swift", "price": 585000, "company": "Maruti Suzuki" },
-  { "name": "Vitara Brezza", "price": 761500, "company": "Maruti Suzuki" },
-  { "name": "Wagon R", "price": 493000, "company": "Maruti Suzuki" },
-  { "name": "Ignis", "price": 510000, "company": "Maruti Suzuki" },
-  { "name": "XL6", "price": 998000, "company": "Maruti Suzuki" },
-  { "name": "Ciaz", "price": 872000, "company": "Maruti Suzuki" },
-  { "name": "Baleno", "price": 599000, "company": "Maruti Suzuki" },
-  { "name": "S-Cross", "price": 859000, "company": "Maruti Suzuki" },
-  { "name": "Santro", "price": 476490, "company": "Hyundai" },
-  { "name": "Grand i10 NIOS", "price": 528990, "company": "Hyundai" },
-  { "name": "Kona Electric", "price": 2379000, "company": "Hyundai" },
-  { "name": "Aura", "price": 599900, "company": "Hyundai" },
-  { "name": "Elantra", "price": 1786100, "company": "Hyundai" },
-  { "name": "Venue", "price": 915000, "company": "Hyundai" },
-  { "name": "New Creta", "price": 1016000, "company": "Hyundai" },
-  { "name": "Tucson", "price": 2269100, "company": "Hyundai" },
-  { "name": "i20", "price": 691200, "company": "Hyundai" }
     ]
   }
