@@ -13,5 +13,25 @@
         "company" : "TCS",
         "role" : "Associate Software Engineer"
       }
+    ],
+    "interest" : [
+      {
+        "name" : "Savings",
+        "id" : 1,
+        "value" : 3.1,
+        "tenure" : "No Tenure"
+      },
+      {
+        "name" : "FD",
+        "id" : 2,
+        "value" : 3.0,
+        "tenure" : "Minimum 1 Year"
+      },
+      {
+        "name" : "Government Bonds", 
+        "id" : 3,
+        "value" : 7.37,
+        "tenure" : "10 Years" 
+      }
     ]
   }
