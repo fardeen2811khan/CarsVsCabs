@@ -3,7 +3,7 @@ import axios from "axios";
 import styles from "../styles/Contributors.css";
 import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
-// import {AiFillLinkedin} from 'react-icons/ai'
+import {AiFillLinkedin} from 'react-icons/ai'
 
 export default function Contributors() {
   const [data, setData] = useState([]);
@@ -29,7 +29,7 @@ export default function Contributors() {
               <h2>Name : {item.name}</h2>
               <h3>Comapany : {item.company}</h3>
               <h3>Role : {item.role}</h3>
-              {/* <h3><Link to={item.link}><AiFillLinkedin /></Link></h3> */}
+              <h3><a href={item.linkedin}><AiFillLinkedin style={{color:'white', fontSize:'30px'}} /></a></h3>
             </div>
           );
         })}
