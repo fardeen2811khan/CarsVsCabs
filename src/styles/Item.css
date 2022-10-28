@@ -24,6 +24,10 @@
     display: flex;
 }
 
+.interest {
+    display: flex;flex-direction: column;
+}
+
 .policy {
     background-color: red;
     width: 50%;
