@@ -1,3 +1,85 @@
 .car_name {
-    background-color: red;
+  /* background-color: red; */
+  padding-top: 10px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.car-show {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.car-show > .cars {
+  flex: 30%;
+  height: 140px;
+  /* width: 200px; */
+}
+
+.cars {
+  width: 200px;
+  margin: 10px;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    22deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(85, 149, 225, 1) 100%
+  );
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+
+.cars > a {
+  text-decoration: none;
+  color: white;
+}
+
+.car-details {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.car-icon {
+  padding-top: 3px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.input {
+    position: fixed;
+    top: 40px;
+  text-align: center;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  background-color: rgb(238, 174, 202);
+  height: 40px;
+  width: 220px;
+  font-size: 16px;
+  color: white;
+}
+
+.input-div {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 900px) {
+   .car-show > .cars {
+        flex: 40%;
+        font-size: 16px;
+    }
+}
+
+@media (max-width:420px) {
+    .car-show > .cars {
+        flex: 100%;
+        font-size: 16px;
+    }
 }

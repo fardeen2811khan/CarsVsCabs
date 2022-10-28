@@ -13,6 +13,8 @@ import Item from "./components/Item";
 import Main from "./components/Main";
 import history from "./history";
 import car from "./DataBase/cardata";
+import Contributors from "./components/Contributors";
+import Information from "./components/Information";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
           <Route path="/check" element={<> <Check /> </>} />
           <Route path="/main" element={<> <Main /> </>} />
           <Route path="/info" element={<> <Info /> </>} />
+          <Route path="/contributors" element={<> <Contributors /> </>} />
+          <Route path="/information" element={<> <Information /> </>} />
           <Route path="/item" element={<> <Item /> </>} />
           <Route path="item/:price" element={<> <Item/> </>} />
           <Route path="/" element={ <> <Empty /></> } />

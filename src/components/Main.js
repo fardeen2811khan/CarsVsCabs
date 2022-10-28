@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from "react";
 import cars from "../DataBase/cardata";
+import {FaCar} from 'react-icons/fa'
+import {BiCommentDetail} from 'react-icons/bi'
 
 import '../styles/Allcars.css'
+// import '../styles/Navbar.css'
 
 import {
   BrowserRouter as Router,
@@ -10,17 +13,22 @@ import {
   Routes,
   Link,
 } from "react-router-dom";
+import Navbar from "./Navbar";
 
 export default function Main() {
   const [value, setValue] = useState();
 
   return (
     <div>
-      <input
+      <Navbar />
+      <div className="input-div">
+      <input className="input"
         onChange={(e) => setValue(e.target.value)}
         type="text"
         placeholder="Enter Car Name"
       />
+      </div>
+      
       <div className="car-show">
         {cars
           .filter((car) => {
@@ -36,8 +44,11 @@ export default function Main() {
           .map((car) => {
             return (
               <div className="cars">
-                <div className="car_name">{car.name}</div>
-                <Link to={`/item/${car.price}`}>More Details</Link>
+                <div className="car_name"> <div className="car-icon"><FaCar /></div> {car.name}  </div>
+                <div className="car_company">{car.company}</div>
+                <div className="car_price">₹ {car.price}</div>
+                <Link to={`/item/${car.price}`}> <div className="car-details"> More Details <div className="car-icon"><BiCommentDetail /></div> </div>
+                </Link>
               </div>
             );
           })}

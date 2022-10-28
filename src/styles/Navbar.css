@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    background-color: rgb(68, 68, 246);
+    color: white;
+    height: 30px;
+    align-items: center;
+}
+
+.navbar-left {
+    width: 40%;
+    margin-left: 30px;
+}
+
+.navbar-left > a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-right {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .navbar-right > a {
+   
+    color: white;
+} */
+
+.nav-item > a {
+    text-decoration: none;
+    color: white;
+}
+
+
+@media (max-width:800px) {
+    .navbar {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:600px) {
+    .navbar {
+        font-size: 12px;
+    }
+}

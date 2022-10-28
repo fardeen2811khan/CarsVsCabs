@@ -2,7 +2,11 @@ import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 // import { withRouter } from 'react-router-dom';
 import cars from "../DataBase/cardata";
-// import "../styles/Item.css";
+import "../styles/Item.css";
+import Navbar from "./Navbar";
+import {FaCar} from 'react-icons/fa'
+import {BiCommentDetail} from 'react-icons/bi'
+import {Pie} from 'react-chartjs-2'
 
 function Item(props) {
   const [data, setData] = useState([]);
@@ -11,6 +15,7 @@ function Item(props) {
   const [text, setText] = useState("");
   const [flag, setFlag] = useState(false);
   const [years, setYears] = useState(0);
+  let xx;
   const url =
     "https://my-json-server.typicode.com/belikeakash/carsvsuber/interest";
   const apiData = async () => {
@@ -45,8 +50,8 @@ function Item(props) {
   const params = useParams();
   // console.log(params);
   const { price } = params;
-  return (
-    <div className style={{}}>
+  return (<>
+    <div className='item-main'>
       {cars
         .filter((car) => {
           if (price == car.price) {
@@ -56,12 +61,13 @@ function Item(props) {
         .map((car) => {
           return (
             <>
+              <Navbar />
               <div className="item">
-                <Link to="/main">See other Cars</Link>
-                <div className="cars">
-                  <div className="car-name">{car.company}</div>
-                  <div className="car-company">{car.name}</div>
-                  <div className="car-price">{car.price}</div>
+                {/* <Link to="/main">See other Cars</Link> */}
+                <div className="item-div">
+                  <div className="item-name"><div className="car-icon"><FaCar /></div>{car.company}</div>
+                  <div className="item-company">{car.name}</div>
+                  <div className="item-price">₹ {car.price}</div>
                 </div>
                 <div className="policy">
                   <div className="uber-cost-input">
@@ -86,29 +92,36 @@ function Item(props) {
                       }}
                       placeholder="Enter Years"
                     />
-                    <button onClick={valueEntered}>Enter</button>
+                    <button className="button" onClick={valueEntered}>Enter</button>
                   </div>
                 </div>
               </div>
+              <div className="invest">
               <h3>If You drive Invest this Money in </h3>
               {data.map((x) => {
                 return (
                   <div className="interest">
                     {x.name} at {x.value}% effective amount will be :{" "}
-                    {calculateInterest(x.value, car.price, years)}
+                    {calculateInterest(x.value, car.price, years)} 
                   </div>
                 );
               })}
 
+              </div>
+              <div className="invest">
               <h2>Comparison Between Owning a Car vs Driving a Cab</h2>
               <h4>Total Cost of Uber per km will be {cost}</h4>
               <h4>
                 Total Cost of Car per km is {carCost(car.price, years, km)}
               </h4>
+              </div>
+
+
             </>
           );
         })}
     </div>
+    </>
   );
 }
 
