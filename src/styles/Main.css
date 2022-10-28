@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+.car-show {
+    /* display: flex;
+    overflow-wrap: break-word; */
+}
+
+.cars {
+    width: 250px;
+    background-color: red;
+    margin: 5px;
+}
+
+.car-name {
+    width: 150px;
+}

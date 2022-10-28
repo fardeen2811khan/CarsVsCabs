@@ -7,18 +7,30 @@ import {
 } from "react-router-dom";
 import Cars from "./components/Cars";
 import Check from "./components/Contributors";
+import Empty from "./components/Empty";
+import Info from "./components/Info";
+import Item from "./components/Item";
+import Main from "./components/Main";
+import history from "./history";
+import car from "./DataBase/cardata";
 
 function App() {
   return (
     <div>
-      {/* <Router>
+      <Router>
         <Routes>
-          <Route path="/" element={<> <Header /> <Profile /> </>} />
-          <Route path="/interview" element={<> <Header /> <Interview /> </>} />
+          <Route path="/cars" element={<> <Cars /> </>} />
+          <Route path="/check" element={<> <Check /> </>} />
+          <Route path="/main" element={<> <Main /> </>} />
+          <Route path="/info" element={<> <Info /> </>} />
+          <Route path="/item" element={<> <Item /> </>} />
+          <Route path="item/:price" element={<> <Item/> </>} />
+          <Route path="/" element={ <> <Empty /></> } />
         </Routes>
-      </Router> */}
-      <Check/>
-      <Cars />
+      </Router>
+      {/* <Check/> */}
+      {/* <Cars /> */}
+      {/* <Main /> */}
     </div>
   );
 }

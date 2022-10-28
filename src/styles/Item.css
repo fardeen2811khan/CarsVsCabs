@@ -1,0 +1,31 @@
+.car-name {
+    background-color: green;
+    text-align: center;
+}
+
+.car-company {
+    background-color: aqua;
+    text-align: center;
+}
+
+.car-price {
+    background-color: brown;
+    text-align: center;
+}
+.cars {
+    margin-top: 40px;
+    height: 300px;
+    width: 50%;
+    
+}
+
+.item {
+    /* width: 50%; */
+    display: flex;
+}
+
+.policy {
+    background-color: red;
+    width: 50%;
+    height: 400px;
+}
