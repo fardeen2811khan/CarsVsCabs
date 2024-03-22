@@ -8,7 +8,7 @@ import {AiFillLinkedin} from 'react-icons/ai'
 export default function Contributors() {
   const [data, setData] = useState([]);
   const url =
-    "https://my-json-server.typicode.com/belikeakash/carsvsuber/users";
+    "";
   const apidata = async () => {
     const response = await fetch(url);
     setData(await response.json());
